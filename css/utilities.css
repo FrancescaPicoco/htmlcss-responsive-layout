@@ -107,6 +107,8 @@
       .pt-50{padding-top: 3.125rem;} /*50px*/
       .pb-80{padding-bottom: 80px;} 
       .pb-100{padding-bottom: 100px;} 
+             /*Padding Rem*/
+      .pad-1{padding: 1rem;}
     
           /*Text Details*/
       .wei-bold{font-weight: bold;}

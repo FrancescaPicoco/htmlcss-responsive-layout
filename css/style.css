@@ -3,20 +3,106 @@ header{
     background-color:darkslategray;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .get-demo{
     background-color: black;
 }
 .big-col{
-    width: calc((((100% / 3) - 1rem) * 2) + 2rem);
+   width: 80%;
+   height: 50em;
+   background-color: cadetblue;
+   margin-top: 3rem;
+}
+.smll-col{
+    width: 80%;
+   height: 25em;
+   background-color: cadetblue;
+   margin-top: 3rem;
+}
+
+big-col{
+    width: calc((((100% / 3) - 2rem) * 2) + 2rem);
     height: 30em;
     margin: 1rem;
     background-color: cadetblue;
 }
-.smll-col{
-    width: calc((100% / 3) - 1rem);
+smll-col{
+    width: calc((100% / 3) - 2rem);
     height: 30em;
     background-color: cadetblue;
     margin: 1rem;
     border: black;
+}
+.lst{
+    margin-bottom: 3rem;
+}
+/***Lilla Section***/
+.lilla{
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lilla-up{
+    background-color: gray;
+    width: 80%;
+    height: 40em;
+    margin: 3rem 0;
+}
+.lilla-down{
+    background-color: gray;
+    width: 80%;
+    height: 40em;
+    margin-bottom: 3rem;
+}
+/***Testimonial Section***/
+.testimonial{
+    background-color: darkslategrey;
+}
+span{ margin-top: 2rem;
+       margin-bottom: 1rem;
+    }
+ p{ padding: 1rem;}   
+.card{
+    width: 80%;
+    height: 40em;
+    background-color: black;
+    margin: 1rem;
+}
+.card-top{
+    height: 45%;
+    background-color:cadetblue;
+}
+.card-bott{
+    height: 55%;
+    background-color:cornflowerblue;
+}
+/***Benefit***/
+.small-card{
+    width: 80%;
+    height: 30em;
+    background-color: dimgrey;
+    margin: 2rem;
+}
+/***AboutUs***/
+.about-us{
+    background-color: darkslateblue;
+}
+.about{
+    width: 80%;
+}
+.find-me{
+    width: 80%;
+    height: 40em;
+    background-color: black;
+    margin: 1rem;
+}
+/***Get Started Sectiom***/
+.started{
+    background-color: chocolate;
+}
+/***Footer Section***/
+footer{
+    background-color: slateblue;
 }
