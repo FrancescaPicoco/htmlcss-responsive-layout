@@ -1,0 +1,22 @@
+header{
+    height: 4em;
+    background-color:darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+.get-demo{
+    background-color: black;
+}
+.big-col{
+    width: calc((((100% / 3) - 1rem) * 2) + 2rem);
+    height: 30em;
+    margin: 1rem;
+    background-color: cadetblue;
+}
+.smll-col{
+    width: calc((100% / 3) - 1rem);
+    height: 30em;
+    background-color: cadetblue;
+    margin: 1rem;
+    border: black;
+}
