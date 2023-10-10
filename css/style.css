@@ -216,6 +216,7 @@ h2{
 .p-benefit{
     font-size: 20px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .btn-violet{
     background-color:#9792E4;
@@ -228,7 +229,7 @@ h2{
 .btn-lilla{
     background-color:#9792E4;
     font-size: 20px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 30px;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -358,6 +359,9 @@ footer{
     .about , .find-me{
         min-height: 10em ;
     }
+    .started , .cont-foot{
+        width: 80%;
+    }
     
 
 }
@@ -366,22 +370,17 @@ footer{
         width: 80%;
     }
     .lil-cont{
-        background-color: black;
         width: 80%;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     .lilla-up{
-        background-color: cadetblue;
         width: 80%;
-        height: 40em;
         margin: 2rem;
     }
     .lilla-down{
-        background-color: cadetblue;
         width: 80%;
-        height: 40em;
         margin: 2rem;
     }
     .test-cont{
@@ -393,14 +392,6 @@ footer{
     .find-me{
         width: 30%;
     }
-    .card-top{
-        width: 100%;
-        height: 15em;
-    }
-    .card-bott{
-        width: 100%;
-        height: 15em;
-    }
     .card-container{
         width: 80%;
     }
@@ -409,6 +400,12 @@ footer{
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+    .h4-abt{
+        font-size: 25px;
+    }
+    .started , .cont-foot{
+        width: 40%;
     }
 }
     
