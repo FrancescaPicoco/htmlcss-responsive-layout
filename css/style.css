@@ -48,14 +48,13 @@ header{
 }
 .big-col{
    width: 80%;
-   min-height: 50em;
+   min-height: 30em;
    background-color: #B5DDFF;
    margin-top: 3rem;
    border-radius: 30px;
 }
 .smll-col{
    width: 80%;
-   height: 25em;
    background-color: #B5DDFF;
    margin-top: 3rem;
    border-radius: 30px;
@@ -293,9 +292,6 @@ footer{
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .col-p{
-       
-    }
     .get-demo{
         display: flex;
         align-items: center;
@@ -309,23 +305,24 @@ footer{
     .smll-col{
         width: calc((100% / 3) - 2rem);
         margin: 1rem;
-        padding: 480px 0;
     }
+    /*.icn{
+        padding-top: 7rem;
+        padding-bottom: 3rem;       PROVE Small-col
+    }
+    .h3-ic{padding: 4rem 0;}
+    .p-icn{padding-bottom: 7rem;}*/
     .card{
         display: flex;
         flex-direction: row;
         width: 90%;
     }
     .card-top{
-        width: 100%;
-         
+        width: 100%;    
     }
     .bottom{
         padding: 2rem 0;
         text-align: left;
-    }
-    .card-bott{
-        width: 800%;
     }
     .p-test{
         padding: 1rem 0.5rem;
