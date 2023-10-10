@@ -9,13 +9,13 @@
         box-sizing: border-box;
         color: black;
       }
-      body{
-        font-family: 'Open Sans', sans-serif;}
+      body{font-family: sans-serif;}
       
       .fix{position: fixed;}
       .pos-rel{position: relative;}
       .pos-abs{position: absolute;}
       .d-inbl{display: inline-block;}
+      .d-in{display: inline;}
          /***FLEX***/
       .d-flex{display: flex;}
       .jcont-cent{justify-content: center;}
@@ -56,6 +56,9 @@
       .gold{background-color: gold;}
       .lightgray{background-color:lightgray;}
       .basecolor{background-color: #b4d0e7;}
+
+      /***Margin Rem***/
+      .mt-4{margin-top: 4rem;}
     
       
          /*Margin*/
@@ -85,6 +88,7 @@
             padding-bottom: 0.3125rem;}
       .pt-5{padding-top: 5px;}
       .p-angle{padding: 5px 5px 0 5px}
+      .pl-7{padding-left: 7px;}
     
       .pt-06{padding-top: 0.625rem;}  /*10px*/
       .pl-10{ padding-left: 0.625rem;}
@@ -102,6 +106,7 @@
       .pt-25{padding-top: 1.5625rem;} /*25px*/
       .pdd-30{padding: 1.875rem;} /*30px*/
       .pt-30{padding-top: 1.875rem;}
+      .ptb-30{padding: 30px 0;}
       .pt-40{padding-top: 2.5rem;} /*40px*/
       .pb-40{padding-bottom: 2.5rem;}
       .pt-50{padding-top: 3.125rem;} /*50px*/
@@ -123,14 +128,24 @@
       .fs-13{font-size: 0.8125rem;}
       .fs-15{font-size: 0.9375rem;}
       .fs-18{font-size: 1.125rem;}
+      .fs-20{font-size: 20px;}
+      .fs-32{font-size: 32px;}
+      .fs-40{font-size: 40px;}
+      .fs-100{font-size: 100px;}
     
       .f-brown{color: brown;}
       .f-black{color:black;}
       .f-white{color: white;}
       .f-gray{color: gray;}
       .f-brow{color: rgb(86, 19, 19);}
+      .f-orange{color: #FDC15F;}
+      .f-lilla{color: #9792E4;}
+      .bg-lilla{background-color: #9792E4;}
       
-      
+      .line-h{line-height: 1.6;}
+      .line-h8{line-height: 1.8;}
+
+      .txt-dec{text-decoration: underline;}
         /**Icon**/
       .ic{filter: invert(1);}
       

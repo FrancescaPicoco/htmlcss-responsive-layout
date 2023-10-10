@@ -1,6 +1,6 @@
 header{
     height: 4em;
-    background-color:darkslategray;
+    background-color: #0084FD;
     display: flex;
     justify-content: center;
 }
@@ -20,16 +20,13 @@ header{
 .h3-col{
     font-size: 32px;
     text-align: center;
-    margin: 2rem 0;
+    margin-top: 2rem;
 }
 .container-demo{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.get-demo{
-    background-color: black;   
 }
 .demo-p{
     font-size: 20px;
@@ -39,7 +36,7 @@ header{
 }
 .btn-blue{
     color: white;
-    background-color: blue;
+    background-color: #0084FD;
     font-size: 20px;
     padding: 1rem 3rem;
     border-radius: 30px;
@@ -52,14 +49,14 @@ header{
 .big-col{
    width: 80%;
    min-height: 50em;
-   background-color: cadetblue;
+   background-color: #B5DDFF;
    margin-top: 3rem;
    border-radius: 30px;
 }
 .smll-col{
    width: 80%;
    height: 25em;
-   background-color: cadetblue;
+   background-color: #B5DDFF;
    margin-top: 3rem;
    border-radius: 30px;
    display: flex;
@@ -74,55 +71,48 @@ header{
     margin-bottom: 3rem;
 }
 i{
-    color: blue;
-    text-align: center;
-    font-size: 100px;
-    margin-top: 4rem;
+    color: #0084FD;
 }
 .lst{
     margin-bottom: 3rem;
 }
 /***Lilla Section***/
 .lilla{
-    background-color:darkslateblue;
+    background-color:#9792E4;
     display: flex;
     justify-content: center;
 }
 .lil-cont{
-    background-color: black;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .lilla-up{
-    background-color: cadetblue;
     width: 100%;
     min-height: 40em;
     margin: 3rem 0;
 }
 .lilla-down{
-    background-color: cadetblue;
+    background-color: white;
     width: 100%;
     min-height: 40em;
     margin-bottom: 3rem;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 .lilla-plan{
     width: 100%;
 }
 h2{
     font-size: 40px;
-    text-align: center;
     padding-top: 4rem;
 }
 .p-lilla{
     font-size: 20px;
-    padding: 1rem 2.5rem;
 }
 .h3-plan{
     font-size: 32px;
-    margin: 1rem 2.5rem;
+    
 }
 /***Testimonial Section***/
 .h3-test{
@@ -141,12 +131,22 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.text-up{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .testimonial{
-    background-color: darkslategrey;
     display: flex;
 }
 .img-test{
     width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    padding: 1rem 3rem 1rem 3rem; /*distrorce l'img*/
 }
 .test{ margin-top: 2rem;
        margin-bottom: 1rem;
@@ -163,26 +163,17 @@ h2{
 } 
 .name{
     font-size: 25px;
-
 }
 .card{
-    width: 80%;
-    height: 40em;
-    background-color: black;
+    width: 70%;
     margin: 1rem;
-    border-radius:20%;
+    border-radius: 50px;
 }
 .card-top{
-    height: 45%;
-    background-color:cadetblue;
-    border-top-right-radius:  30px;
-    border-top-left-radius: 30px;
+    height: 50%;
 }
 .card-bott{
-    height: 55%;
-    background-color:cornflowerblue;
-    border-bottom-right-radius:  30px;
-    border-bottom-left-radius: 30px;
+    height: 50%;
     display: flex;
     align-items: center;
     padding: 0 1.5rem;
@@ -198,19 +189,19 @@ h2{
 }
 /***Benefit***/
 .card-container{
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 .small-card{
-    width: 80%;
-    height: 30em;
-    background-color: dimgrey;
+    width: 70%;
+    background-color: white;
     margin: 2rem;
     border-radius: 30px;
 }
 .numb{
     font-size: 50px;
-    color: blueviolet;
+    color:#9792E4;
     padding-top: 3rem;
     margin-left: 1.5rem;
 }
@@ -224,18 +215,35 @@ h2{
     margin-left: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
 }
 .btn-violet{
-    background-color: blueviolet;
+    background-color:#9792E4;
     font-size: 20px;
-    padding: 1rem 4rem;
+    padding: 0.5rem 4rem;
     border-radius: 30px;
     margin-left:1.5rem;
+    margin-bottom: 3rem; /*HELP*/
+}
+.btn-lilla{
+    background-color:#9792E4;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-white{
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
 }
 /***AboutUs***/
 .container-abt{
-    width: 100%;
-    background-color: darkslateblue;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -243,7 +251,6 @@ h2{
 .about-us{
    display: flex;
    justify-content: center;
-   background-color: gray;
 }
 .about{
     width: 80%;
@@ -253,19 +260,18 @@ h2{
 }
 .find-me{
     width: 80%;
-    min-height: 10em;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .card-up{
-    background-color: brown;
-    width: 70%;
-
+    border-radius: 50px;
 }
 .card-down{
 
 }
 .h4-abt{
-    font-size: 3
+    font-size: 32px;
+    margin-bottom: 2rem;
 }
 .linkedin{
     color: white;
@@ -274,11 +280,12 @@ h2{
 }
 /***Get Started Sectiom***/
 .started{
-    background-color:cadetblue;
+    background-color:#9792E4;
+    width: 70%;
 }
 /***Footer Section***/
 footer{
-    background-color: slateblue;
+    background-color: #333333;
 }
 @media screen and (min-width: 768px){
     .container-demo{
