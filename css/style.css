@@ -17,11 +17,7 @@ header{
     margin-right: 2rem;
 }
 /***Fine Header***/
-.h3-col{
-    font-size: 32px;
-    text-align: center;
-    margin-top: 2rem;
-}
+/**Section Get-Demo**/
 .container-demo{
     width: 100%;
     display: flex;
@@ -31,63 +27,37 @@ header{
 .demo-p{
     font-size: 20px;
     text-indent: 0;
-    padding: 1rem 2.5rem;
+    padding: 1rem 0;
     margin-bottom: 3rem;
-}
-.btn-blue{
-    color: white;
-    background-color: #0084FD;
-    font-size: 20px;
-    padding: 1rem 3rem;
-    border-radius: 30px;
-    margin-left: 2.5rem;
-}
-.phone{
-    width: 100%;
-    margin-top: 3rem;
 }
 .big-col{
-   width: 80%;
-   min-height: 30em;
-   background-color: #B5DDFF;
-   margin-top: 3rem;
-   border-radius: 30px;
-}
-.smll-col{
-   width: 80%;
-   background-color: #B5DDFF;
-   margin-top: 3rem;
-   border-radius: 30px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-}
-.col-p{
-    font-size: 20px;
-    padding: 1rem 2.5rem;
-    margin-bottom: 3rem;
-}
-i{
-    color: #0084FD;
-}
-.lst{
-    margin-bottom: 3rem;
-}
-/***Lilla Section***/
-.lilla{
-    background-color:#9792E4;
-    display: flex;
-    justify-content: center;
-}
-.lil-cont{
     width: 80%;
+    min-height: 30em;
+    background-color: #B5DDFF;
+    margin-top: 3rem;
+    border-radius: 30px;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+ }
+ .smll-col{
+    width: 80%;
+    background-color: #B5DDFF;
+    margin-top: 3rem;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+ }
+ i{
+    color: #0084FD;
+ }
+ .phone{
+    width: 100%;
+    margin-top: 3rem;
 }
-.lilla-up{
+ /***Lilla Section***/
+ .lilla-up{
     width: 100%;
     min-height: 40em;
     margin: 3rem 0;
@@ -99,65 +69,18 @@ i{
     margin-bottom: 3rem;
     border-radius: 35px;
 }
-.lilla-plan{
-    width: 100%;
-}
 h2{
     font-size: 40px;
     padding-top: 4rem;
 }
-.p-lilla{
-    font-size: 20px;
-}
-.h3-plan{
-    font-size: 32px;
-    
-}
 /***Testimonial Section***/
-.h3-test{
-    font-size: 32px;
-    padding: 1rem 2rem;
-}
-.p-test{
-    font-size: 20px;
-    padding: 1rem 2rem;
-}
-.test-cont{
+.txt-cont{
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.text-up{
-    width: 90%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.testimonial{
-    display: flex;
-}
-
-.test{ margin-top: 2rem;
-       margin-bottom: 1rem;
-    }
-.p-test{ 
-    font-size: 20px;
-    padding: 1.5rem;
-}  
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} 
-.name{
-    font-size: 25px;
-    margin-bottom: 2rem;
 }
 .card{
     width: 70%;
@@ -174,24 +97,14 @@ h2{
     object-fit: cover;
     margin: 1rem;
 }
-
+.name{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
 .card-bott{
-    min-height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0 1.5rem;
-    /*position: relative;*/
 }
-.descr{
-    padding: 1.5rem;
-}
-.wht{
-    color: white;
-    /*position: absolute;*/
-    font-size: 20px;
-}
-/***Benefit***/
+/***Benefit Section***/
 .card-container{
     width: 70%;
     display: flex;
@@ -208,52 +121,12 @@ h2{
     color:#9792E4;
     padding-top: 3rem;
 }
-.h4-benefit{
-    font-size: 25px;
-    margin-top: 2rem;
-}
-.p-benefit{
-    font-size: 20px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.btn-violet{
-    background-color:#9792E4;
-    font-size: 20px;
-    padding: 0.5rem 2rem;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 2rem;
-}
-.btn-lilla{
-    background-color:#9792E4;
-    font-size: 20px;
-    padding: 0.5rem 1rem;
-    border-radius: 30px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.btn-white{
-    font-size: 20px;
-    padding: 0.5rem 2rem;
-    border-radius: 30px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background-color: white;
-}
-/***AboutUs***/
+/***About Us Section***/
 .container-abt{
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items:center;
-}
-.about-us{
-   display: flex;
-   justify-content: center;
-}
-.about{
-    width: 80%;
 }
 .us{
     width: 150px;
@@ -267,16 +140,12 @@ h2{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.h4-abt{
-    font-size: 32px;
-    margin-bottom: 2rem;
-}
 .linkedin{
     color: white;
     font-size: 20px;
     padding-right: 1rem;
 }
-/***Get Started Sectiom***/
+/***Get Started Section***/
 .started{
     width: 70%;
 }
@@ -284,6 +153,29 @@ h2{
 footer{
     background-color: #333333;
 }
+/***Button***/
+.btn-blue{
+    color: white;
+    background-color: #0084FD;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+}
+.btn-lilla{
+    background-color:#9792E4;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+.btn-white{
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    margin: 2rem 0;
+    background-color: white;
+}
+/***Tablet Responsive***/
 @media screen and (min-width: 768px){
     .container-demo{
         width: 90%;
@@ -306,19 +198,10 @@ footer{
         width: calc((100% / 3) - 2rem);
         margin: 1rem;
     }
-    /*.icn{
-        padding-top: 7rem;
-        padding-bottom: 3rem;       PROVE Small-col
-    }
-    .h3-ic{padding: 4rem 0;}
-    .p-icn{padding-bottom: 7rem;}*/
     .card{
         display: flex;
         flex-direction: row;
         width: 90%;
-    }
-    .card-top{
-        width: 100%;    
     }
     .bottom{
         padding: 2rem 0;
@@ -328,7 +211,7 @@ footer{
         padding: 1rem 0.5rem;
     }
     .name{ margin-bottom: 20px;} /*help*/
-    .test-cont{
+    .txt-cont{
         width: 90%;
     }
     .benefit{
@@ -353,19 +236,16 @@ footer{
         flex-direction: row;
         align-items: start;
     }
-    .about , .find-me{
-        min-height: 10em ;
-    }
     .started , .cont-foot{
         width: 80%;
     }
-    
-
 }
+/***Desktop***/
 @media  screen and (min-width:992px) {
     .container , .container-demo{
         width: 80%;
     }
+    .smll-col{padding: auto;}
     .lil-cont{
         width: 80%;
         display: flex;
@@ -380,7 +260,7 @@ footer{
         width: 80%;
         margin: 2rem;
     }
-    .test-cont{
+    .txt-cont{
         width: 80%;
     }
     .card{
@@ -398,12 +278,19 @@ footer{
         justify-content: center;
         align-content: center;
     }
-    .h4-abt{
+    .t-abt{
         font-size: 25px;
     }
     .started , .cont-foot{
         width: 40%;
     }
 }
+
+ /*.icn{
+        padding-top: 7rem;
+        padding-bottom: 3rem;       PROVE Small-col
+    }
+    .h3-ic{padding: 4rem 0;}
+    .p-icn{padding-bottom: 7rem;}*/
     
 
