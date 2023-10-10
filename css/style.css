@@ -153,8 +153,13 @@ h2{
     padding-right: 1rem;
 }
 .icn{
-    right: 1px;
+    right: 0;
+    top: 10px;
     font-size: 50px;
+}
+.quote{
+    width: 150px;
+    height: 150px;
 }
 /***Get Started Section***/
 .started{
