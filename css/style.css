@@ -10,6 +10,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.logo-header{
+   margin-left: 2rem;
+}
+.menu{
+    margin-right: 2rem;
+}
+/***Fine Header***/
+.h3-col{
+    font-size: 32px;
+    text-align: center;
+    margin: 2rem 0;
+}
 .container-demo{
     width: 100%;
     display: flex;
@@ -19,17 +31,53 @@ header{
 .get-demo{
     background-color: black;   
 }
+.demo-p{
+    font-size: 20px;
+    text-indent: 0;
+    padding: 1rem 2.5rem;
+    margin-bottom: 3rem;
+}
+.btn-blue{
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+}
+.phone{
+    width: 100%;
+    margin-top: 3rem;
+}
 .big-col{
    width: 80%;
-   height: 50em;
+   min-height: 50em;
    background-color: cadetblue;
    margin-top: 3rem;
+   border-radius: 30px;
 }
 .smll-col{
    width: 80%;
    height: 25em;
    background-color: cadetblue;
    margin-top: 3rem;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.col-p{
+    font-size: 20px;
+    padding: 1rem 2.5rem;
+    margin-bottom: 3rem;
+}
+i{
+    color: blue;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 4rem;
 }
 .lst{
     margin-bottom: 3rem;
@@ -49,17 +97,42 @@ header{
 }
 .lilla-up{
     background-color: cadetblue;
-    width: 80%;
-    height: 40em;
+    width: 100%;
+    min-height: 40em;
     margin: 3rem 0;
 }
 .lilla-down{
     background-color: cadetblue;
-    width: 80%;
-    height: 40em;
+    width: 100%;
+    min-height: 40em;
     margin-bottom: 3rem;
+    border-radius: 30px;
+}
+.lilla-plan{
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 4rem;
+}
+.p-lilla{
+    font-size: 20px;
+    padding: 1rem 2.5rem;
+}
+.h3-plan{
+    font-size: 32px;
+    margin: 1rem 2.5rem;
 }
 /***Testimonial Section***/
+.h3-test{
+    font-size: 32px;
+    padding: 1rem 2rem;
+}
+.p-test{
+    font-size: 20px;
+    padding: 1rem 2rem;
+}
 .test-cont{
     width: 100%;
     text-align: center;
@@ -70,37 +143,94 @@ header{
 }
 .testimonial{
     background-color: darkslategrey;
+    display: flex;
 }
-span{ margin-top: 2rem;
+.img-test{
+    width: 100%;
+}
+.test{ margin-top: 2rem;
        margin-bottom: 1rem;
     }
- p{ padding: 1rem;}  
+.p-test{ 
+    font-size: 20px;
+    padding: 1.5rem;
+}  
 .cards{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 } 
+.name{
+    font-size: 25px;
+
+}
 .card{
     width: 80%;
     height: 40em;
     background-color: black;
     margin: 1rem;
+    border-radius:20%;
 }
 .card-top{
     height: 45%;
     background-color:cadetblue;
+    border-top-right-radius:  30px;
+    border-top-left-radius: 30px;
 }
 .card-bott{
     height: 55%;
     background-color:cornflowerblue;
+    border-bottom-right-radius:  30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    /*position: relative;*/
+}
+.bottom{
+    padding: 1.5rem;
+}
+.wht{
+    color: white;
+    /*position: absolute;*/
+    font-size: 20px;
 }
 /***Benefit***/
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
 .small-card{
     width: 80%;
     height: 30em;
     background-color: dimgrey;
     margin: 2rem;
+    border-radius: 30px;
+}
+.numb{
+    font-size: 50px;
+    color: blueviolet;
+    padding-top: 3rem;
+    margin-left: 1.5rem;
+}
+.h4-benefit{
+    font-size: 25px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.p-benefit{
+    font-size: 20px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.btn-violet{
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 1rem 4rem;
+    border-radius: 30px;
+    margin-left:1.5rem;
 }
 /***AboutUs***/
 .container-abt{
@@ -118,11 +248,29 @@ span{ margin-top: 2rem;
 .about{
     width: 80%;
 }
+.us{
+    width: 70%;
+}
 .find-me{
     width: 80%;
-    min-height: 20em;
-    background-color: black;
+    min-height: 10em;
     margin: 1rem;
+}
+.card-up{
+    background-color: brown;
+    width: 70%;
+
+}
+.card-down{
+
+}
+.h4-abt{
+    font-size: 3
+}
+.linkedin{
+    color: white;
+    font-size: 20px;
+    padding-right: 1rem;
 }
 /***Get Started Sectiom***/
 .started{
@@ -132,7 +280,6 @@ span{ margin-top: 2rem;
 footer{
     background-color: slateblue;
 }
-
 @media screen and (min-width: 768px){
     .container-demo{
         width: 90%;
