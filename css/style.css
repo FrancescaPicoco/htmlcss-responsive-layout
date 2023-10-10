@@ -36,7 +36,7 @@ header{
 }
 /***Lilla Section***/
 .lilla{
-    background-color: mediumpurple;
+    background-color:darkslateblue;
     display: flex;
     justify-content: center;
 }
@@ -48,13 +48,13 @@ header{
     align-items: center;
 }
 .lilla-up{
-    background-color: gray;
+    background-color: cadetblue;
     width: 80%;
     height: 40em;
     margin: 3rem 0;
 }
 .lilla-down{
-    background-color: gray;
+    background-color: cadetblue;
     width: 80%;
     height: 40em;
     margin-bottom: 3rem;
@@ -103,12 +103,17 @@ span{ margin-top: 2rem;
     margin: 2rem;
 }
 /***AboutUs***/
-.about-us{
+.container-abt{
+    width: 100%;
     background-color: darkslateblue;
-    d-flex flex-di-col alg-items
     display: flex;
     flex-direction: column;
     align-items:center;
+}
+.about-us{
+   display: flex;
+   justify-content: center;
+   background-color: gray;
 }
 .about{
     width: 80%;
@@ -121,7 +126,7 @@ span{ margin-top: 2rem;
 }
 /***Get Started Sectiom***/
 .started{
-    background-color: chocolate;
+    background-color:cadetblue;
 }
 /***Footer Section***/
 footer{
@@ -174,6 +179,7 @@ footer{
         width: 90%;
     }
     .benefit{
+        background-color: black;
        display: flex;
        flex-direction: column;   
        justify-content: center;
@@ -194,7 +200,8 @@ footer{
         background-color: cadetblue;
         margin: 15px;
     }
-    .about-us{
+    .container-abt{
+        width: 90%;
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -223,13 +230,13 @@ footer{
         align-items: center;
     }
     .lilla-up{
-        background-color: gray;
+        background-color: cadetblue;
         width: 80%;
         height: 40em;
         margin: 2rem;
     }
     .lilla-down{
-        background-color: gray;
+        background-color: cadetblue;
         width: 80%;
         height: 40em;
         margin: 2rem;
@@ -240,16 +247,25 @@ footer{
     .card{
        height: 15em;
     }
-    .card-top{
+    .find-me{
         width: 30%;
+    }
+    .card-top{
+        width: 100%;
         height: 15em;
     }
     .card-bott{
-        width: 70%;
+        width: 100%;
         height: 15em;
     }
     .card-container{
         width: 80%;
+    }
+    .container-abt{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 }
     
