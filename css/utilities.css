@@ -112,8 +112,10 @@
       .pt-50{padding-top: 3.125rem;} /*50px*/
       .pb-80{padding-bottom: 80px;} 
       .pb-100{padding-bottom: 100px;} 
+      .pt-100{padding-top: 400px;}
              /*Padding Rem*/
       .pad-1{padding: 1rem;}
+      .pad-2{padding: 2rem;}
     
           /*Text Details*/
       .wei-bold{font-weight: bold;}
