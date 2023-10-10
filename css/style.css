@@ -170,10 +170,10 @@ h2{
     border-radius: 50px;
 }
 .card-top{
-    height: 50%;
+    min-height: 50%;
 }
 .card-bott{
-    height: 50%;
+    min-height: 50%;
     display: flex;
     align-items: center;
     padding: 0 1.5rem;
@@ -263,12 +263,6 @@ h2{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.card-up{
-    border-radius: 50px;
-}
-.card-down{
-
-}
 .h4-abt{
     font-size: 32px;
     margin-bottom: 2rem;
@@ -280,7 +274,6 @@ h2{
 }
 /***Get Started Sectiom***/
 .started{
-    background-color:#9792E4;
     width: 70%;
 }
 /***Footer Section***/
@@ -302,40 +295,40 @@ footer{
     }
     .big-col{
         width: calc((((100% / 3) - 2rem) * 2) + 2rem);
-        height: 30em;
+        min-height: 40em;
         margin: 1rem;
-        background-color: cadetblue;
     }
     .smll-col{
         width: calc((100% / 3) - 2rem);
-        height: 30em;
-        background-color: cadetblue;
+        min-height: 40em;
         margin: 1rem;
-        border: black;
     }
     .card{
         display: flex;
         flex-direction: row;
         width: 90%;
-        height: 20em;
     }
     .card-top{
-        width: 40%;
-        height : 15em;
-        background-color:cadetblue;
+        width: 100%;
+         
+    }
+    .bottom{
+        padding: 2rem 0;
+        text-align: left;
     }
     .card-bott{
-        width: 60%;
-        height:15em;
-        background-color:cornflowerblue;
+        width: 800%;
     }
+    .p-test{
+        padding: 1rem 0.5rem;
+    }
+    .name{ margin-bottom: 20px;} /*help*/
     .test-cont{
         width: 90%;
     }
     .benefit{
-        background-color: black;
        display: flex;
-       flex-direction: column;   
+          
        justify-content: center;
        align-items: center;
     }
@@ -344,14 +337,13 @@ footer{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: grey;
+        background-color: 
     }
     .small-card{
         width: calc((100% / 2) - 30px);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 30em;
-        background-color: cadetblue;
         margin: 15px;
     }
     .container-abt{
@@ -363,14 +355,8 @@ footer{
     .about , .find-me{
         min-height: 10em ;
     }
-    .card-top{
-        width: 100%;
-        height: 10em;
-    }
-    .card-bott{
-        width: 100%;
-        height: ;
-    }
+    
+
 }
 @media  screen and (min-width:992px) {
     .container , .container-demo{
