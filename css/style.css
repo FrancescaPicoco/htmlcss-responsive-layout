@@ -69,6 +69,13 @@ header{
     margin-bottom: 3rem;
     border-radius: 35px;
 }
+.arrow-dwn{
+    color: black;
+    font-size: 30px;
+    background-color: #9792E4;
+    border-radius: 100%;
+    padding: 1rem 1.3rem;  /*giusto?*/
+}
 h2{
     font-size: 40px;
     padding-top: 4rem;
