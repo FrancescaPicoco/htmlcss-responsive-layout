@@ -16,6 +16,7 @@
       .pos-abs{position: absolute;}
       .d-inbl{display: inline-block;}
       .d-in{display: inline;}
+      .d-none{display: none;}
          /***FLEX***/
       .d-flex{display: flex;}
       .jcont-cent{justify-content: center;}

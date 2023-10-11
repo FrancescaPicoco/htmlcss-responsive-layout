@@ -196,6 +196,15 @@ a{
 }
 /***Tablet Responsive***/
 @media screen and (min-width: 768px){
+    #menu{
+        display: block;
+        color: white;
+        font-size: 35px;
+    }
+    #burger{
+        display: none;
+    }
+    
     .container-demo{
         width: 90%;
         display: flex;
@@ -303,6 +312,10 @@ a{
     }
     .t-abt{
         font-size: 25px;
+    }
+    .lil-cont{
+        display: flex;
+        flex-direction: row;
     }
     .started , .cont-foot{
         width: 40%;
