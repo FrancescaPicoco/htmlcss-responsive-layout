@@ -55,6 +55,7 @@ header{
  .phone{
     width: 100%;
     margin-top: 3rem;
+    display: block;
 }
  /***Lilla Section***/
  .lilla-up{
@@ -176,6 +177,7 @@ footer{
     font-size: 20px;
     padding: 1rem 3rem;
     border-radius: 30px;
+    display: inline-block;
 }
 .btn-lilla{
     background-color:#9792E4;
@@ -183,6 +185,7 @@ footer{
     padding: 0.5rem 1rem;
     border-radius: 30px;
     margin-top: 2rem;
+    display: inline-block;
 }
 .btn-white{
     font-size: 20px;
@@ -190,6 +193,7 @@ footer{
     border-radius: 30px;
     margin: 2rem 0;
     background-color: white;
+    display: inline-block;
 }
 a{
     cursor: pointer;
@@ -224,10 +228,16 @@ a{
         align-items: center;
         justify-content: center;
     }
+    .phone{
+
+    }
     .big-col{
         width: calc((((100% / 3) - 2rem) * 2) + 2rem);
         min-height: 40em;
         margin: 1rem;
+        /*display: flex;
+        flex-direction: column;
+        text-align:*/
     }
     .smll-col{
         width: calc((100% / 3) - 2rem);
