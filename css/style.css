@@ -197,14 +197,21 @@ a{
 /***Tablet Responsive***/
 @media screen and (min-width: 768px){
     #menu{
-        display: block;
+        display: inline-block;
         color: white;
         font-size: 35px;
     }
     #burger{
         display: none;
     }
-    
+    #btn{
+        display: inline-block;
+        padding: 0.7rem 1rem;
+        background-color: white;
+        color: #0084FD;
+        border-radius: 30px;
+        align-
+    }
     .container-demo{
         width: 90%;
         display: flex;
