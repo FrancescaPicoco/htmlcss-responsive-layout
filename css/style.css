@@ -290,6 +290,11 @@ a{
     .card-container{
         width: 80%;
     }
+    .small-card{
+        width: calc((80% / 3) - 20px);
+        display: flex;
+        flex-direction: column;
+    }
     .container-abt{
         width: 80%;
         display: flex;
